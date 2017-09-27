@@ -1,0 +1,11 @@
+#!/bin/bash
+
+seed=$1
+in_file=$2
+num_lines=$3
+out_file=$4
+
+echo random: $RANDOM
+echo seed: $seed in_file: $in_file lines: $num_lines out_file: $out_file
+
+exit 0
